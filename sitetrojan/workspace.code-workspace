@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\2023-IFC-IA22-Optativa-Frontend-main\\responsividade"
+		},
+		{
+			"path": "..\\2023-IFC-IA22-Optativa-Frontend-main\\quiz"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "responsividade"
+	}
+}

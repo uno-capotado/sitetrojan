@@ -1,0 +1,419 @@
+html {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("bayonetta.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    contain: content;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 20px;
+}
+
+.coiso {
+    background-color: aliceblue;
+    width: 90vw;
+    border: 3px solid #050218;
+    border-radius: 30px;
+    contain: content;
+    margin-left: 1.5%;
+    padding-right: 20px;
+}
+
+.coiso :not(.head) {
+    margin: 20px;
+}
+
+.head {
+    background-color: #0f1541;
+    border: 3px solid #050218;
+    color: white;
+    width: 100vw;
+    height: 10%;
+    padding: 20px;
+    display: flex;
+    contain: content;
+    max-width: 90vw;
+}
+
+.muie {
+    background-image: url("icon.jpg");
+    background-color: #050218;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    border: 2px solid black;
+    transform: scale(1.4);
+}
+
+.aa {
+    border: 3px solid  #050218;
+    border-radius: 25%;
+    width: 250px;
+    height: 250px;
+    float: right;
+    contain: content;
+}
+
+.aaa {
+    border: 3px solid  #050218;
+    border-radius: 30px;
+    width: 400px;
+    height: 250px;
+    float: right;
+    contain: content;
+}
+
+.head > div :not(.loucura) {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.loucura {
+    float: right;
+    height: 30px;
+    width: 10px;
+    padding-left: 12%;
+}
+
+.insanidade {
+    width: 380px;
+    height: 120px;
+    margin-left: 20px;
+}
+
+.subtitulo1 {
+    padding-top: 20px;
+    padding-left: 10%;
+}
+
+.subtitulo2 {
+    padding-left: 10%;
+}
+
+
+
+
+
+
+nav {
+    background-color: #0f1541;
+    padding: 10px;
+    border: 2px solid #050218;
+    border-radius: 20px;
+    margin-bottom: 1em;
+    font-size: 1rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+nav :is(ul, li) {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+  
+nav ul li {
+    padding: .5em;
+    transition: .3s;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+nav ul li:hover {
+    background-color: rgba(255, 255, 255, .5);
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+}
+  
+nav a {
+    color: white;
+    text-decoration: none;
+}
+  
+nav a:active {
+    color: rgb(0, 0, 0);
+}
+  
+nav a:focus {
+    color: #3c437a;
+}
+  
+nav > ul > li {
+    position: relative;
+}
+  
+nav > ul > li > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+  
+nav > .logo {
+    height: 7rem;
+    padding-right: 20px;
+}
+
+
+
+
+.quiz-container{
+    background-color: #0f1541;
+    border: 3% white;
+    margin: 3px;
+    border-radius: 7px;
+    width: 1000px;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.quiz-header{
+    padding: 1rem;
+    background-color: #0f1541;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    margin: 0%;
+}
+
+ul.naoda{
+    list-style-type: none;
+    padding: 1rem;
+}
+
+ul li.pergunta{
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+
+ul li label{
+  cursor: pointer;
+}
+
+button{
+    background-color: aliceblue;
+    color: #0f1541;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 1rem;
+    overflow: hidden;
+    font-family: monospace;
+    font: bolder;
+}
+
+button:hover{
+  background-color: #c8cfff;
+}
+
+button:focus{
+  outline: none;
+  background-color: #242c68;
+  color: white;
+}
+
+.contenha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.ultimo {
+    padding-bottom: 20px;
+}
+
+
+p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+div.galeria {
+    border: 5px solid #0f1541;
+    background-color: #3c437a;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    gap: 1rem;
+}
+  
+div.galeria > :nth-child(1) {
+    background-image: url("galeria1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    grid-column-start: 1;
+    grid-column-end: 3;
+  
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+div.galeria > :nth-child(2) {
+    background-image: url("galeria2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.galeria > :nth-child(3) {
+    background-image: url("galeria3.jpg_large");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+div.galeria > :nth-child(4) {
+    background-image: url("galeria4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+  
+div.galeria > :nth-child(5) {
+    background-image: url("galeria5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+div.galeria > :nth-child(6) {
+    background-image: url("galeria6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.galeria > :nth-child(7) {
+    background-image: url("galeria7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.galeria {
+    padding-left: 50px;
+    color: white;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.galeria > div {
+    border: 2px solid #050218;
+}
+
+
+
+.modal {
+    display: grid;
+    place-items: center;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0 0 0 / .5);
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .modal.opened {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal .window {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 50vw;
+    min-height: 50vh;
+    background-color: white;
+    border-radius: 1vw;
+    padding: 1rem;
+    max-width: 70%;
+    color: #050218;
+  }
+
+  .modal .window .close {
+    position: absolute;
+    right: -1vw;
+    top: -1vw;
+    border: none;
+    font-size: 1vw;
+    height: 4vw;
+    width: 4vw;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+
+div.coiso > button {
+    background-color: aliceblue;
+    color: #0f1541;
+    width: 98%;
+    border: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    overflow: hidden;
+    font-family: monospace;
+}
+
+.modalbts:hover {
+    outline: none;
+    background-color: #c8cfff;
+    color: #0f1541;
+    border-radius: 70px;
+}
+
+.modalbts:focus{
+    outline: none;
+    background-color: #242c68;
+    color: white;
+    border-radius: 70px;
+}
+
+.audio {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0f1541;
+}
+
+audio {
+    margin: 10px;
+}
